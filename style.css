@@ -18,3 +18,8 @@ header h2{
     width: 33%;
     border: 1px solid black;
 }
+p{
+    text-align: center;
+    font-size: 75px;
+    padding: 0px;
+}

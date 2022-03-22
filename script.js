@@ -17,7 +17,7 @@ function init() {
 function rublikak() {
   var txt = "";
   for (let index = 1; index <= 9; index++) {
-    txt += `<div class="rublika" id="${index}"></div>`;
+    txt += `<div class="rublika" id="${index}"><p></p></div>`;
   }
   ID("jatekter").innerHTML = txt;
   for (let index = 1; index <= 9; index++) {
@@ -28,6 +28,7 @@ function rublikak() {
 
 function valasztas(){
     console.log(event.target.id);
-    
+    var kattint = event.target.id;
+    ID(kattint).innerHTML = "<p>x</p>"
 }
 
