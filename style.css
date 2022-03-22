@@ -1,0 +1,20 @@
+main{
+    margin: auto;
+    max-width: 800px;
+    background-color: white;
+}
+header h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+}
+
+.rublika{
+    width: 33%;
+    border: 1px solid black;
+}
